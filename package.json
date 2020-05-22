@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/finwo/under-construction/issues"
   },
-  "homepage": "https://github.com/finwo/under-construction#readme"
+  "homepage": "https://github.com/finwo/under-construction#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "minimist": "^1.2.5"
+  }
 }
