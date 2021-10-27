@@ -6,4 +6,4 @@ argv.port = argv.port || process.env.PORT || 5000;
 
 app.use(express.static('public'));
 
-app.listen(argv.port);
+app.listen(argv.port, '0.0.0.0');
